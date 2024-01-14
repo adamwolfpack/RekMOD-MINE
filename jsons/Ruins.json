@@ -1,49 +1,71 @@
 [
     {
         "name": "freeCulture",
-        "notification": "We have discovered cultural artifacts in the ruins! (+10 culture)",
-        "uniques": ["Gain [20] [Culture] (modified by game speed) <after [15] turns>"]
+        "notification": "We have discovered cultural artifacts in the ruins! (+2000 culture)",
+        "weight": 3
+        "uniques": ["Gain [2000] [Culture] (modified by game speed) <after [1] turns>"]
         },
     {
         "name": "joinWorker",
         "notification": "A [Worker] has joined us!",
         "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
+        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity", "Diety++"]
         },
     {
         "name": "joinSettler",
         "notification": "A [Settler] has joined us!",
         "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Warlord", "Prince", "King", "Emperor", "Immortal", "Deity"]
+        "excludedDifficulties": ["Warlord", "Prince", "King", "Emperor", "Immortal", "Deity", "Diety++"]
         },
     {
         "name": "freePop",
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
-        "uniques": ["[+1] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
+        "weight": 4
+        "uniques": ["[+3] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
         },
     {
         "name": "freeGold",
         "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
-        "uniques": ["Gain [50]-[100] [Gold]"]
+        "weight": 3
+        "uniques": ["Gain [3000]-[5000] [Gold]"]
         },
     {
         "name": "freeAncientTech",
-        "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"]
+        "notification": "We have discovered the lost technology in the ruins!",
+        "weight": 3
+        "uniques": ["[3] free random researchable Tech(s) from the [Ancient era] <during the [Ancient era]>",
+					"[3] free random researchable Tech(s) from the [Classical era] <during the [Classical era]>",
+					"[2] free random researchable Tech(s) from the [Medieval era] <during the [Medieval era]>",
+					"[2] free random researchable Tech(s) from the [Renaissance era] <during the [Renaissance era]>"]
         },
+    {
+        "name": "unitTraining",
+        "notification": "Our unit was trained by nearby residents!",
+        "weight": 2
+	    "uniques": ["This Unit gains [300] XP"]
+    },
     {
         "name": "unitUpgrade",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "uniques": ["This Unit upgrades for free including special upgrades"]
+        "weight": 4
+        "uniques": ["This Unit upgrades for free including special upgrades", "This Unit gains [300] XP"]
         },
     {
         "name": "crudelyDrawnMap",
         "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["Reveal up to [All] [All] within a [6] tile radius"]
+        "weight": 1
+        "uniques": ["Reveal up to [All] [All] within a [600] tile radius", "Only available <before founding a Pantheon>"]
         },
     {
         "name": "holySymbols",
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain [20] [Faith] (modified by game speed) <after [15] turns>"]
-        }
+        "weight": 1
+        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>"]
+    },
+    {
+        "name": "ancientProphecy",
+        "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
+        "weight": 1
+	    "uniques": ["Hidden when religion is disabled", "Gain enough Faith for [100]% of a Great Prophet", "Hidden after generating a Great Prophet", "Only available <after founding a Pantheon>"]
+    }
 ]
