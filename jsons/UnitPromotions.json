@@ -210,14 +210,14 @@
         ],
         "unitTypes": ["Scout"]
     },
-    /*{
+    {
         "name": "Survivalism III",
         "prerequisites": ["Survivalism II"],
         "uniques": [
             "Unit will heal every turn, even if it performs an action",
             "[3] additional attacks per turn",
             "[+5] Movement",
-            "All adjacent units heal [40] HP when healing",
+            "All adjacent units heal [+40] HP when healing",
             "[+150]% Strength <when fighting in [Open terrain] tiles> <when defending>",
             "[+150]% Strength <when fighting in [Rough terrain] tiles> <when defending>",
             "[+75]% Strength <vs [Mounted] units>",
@@ -227,7 +227,7 @@
             "[+150]% Strength <vs [Helicopter] units>"]
         ],
         "unitTypes": ["Scout"]
-    },*/
+    },
     // Water melee
     {
         "name": "Boarding Party I",
