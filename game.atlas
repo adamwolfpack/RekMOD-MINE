@@ -4636,6 +4636,13 @@ UnitPromotionIcons/Formation
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Survivalism III
+  rotate: false
+  xy: 1742, 662
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Invulnerability
   rotate: false
   xy: 1742, 662
