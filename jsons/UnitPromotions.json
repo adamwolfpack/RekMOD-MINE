@@ -197,7 +197,7 @@
         ],
         "unitTypes": ["Scout"]
     },
-    {
+    /*{
         "name": "Survivalism II",
         "prerequisites": ["Survivalism I"],
         "uniques": [
@@ -227,7 +227,7 @@
             "[+150]% Strength <vs [Helicopter] units>"]
         ],
         "unitTypes": ["Scout"]
-    },
+    },*/
     // Water melee
     {
         "name": "Boarding Party I",
