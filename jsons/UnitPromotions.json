@@ -68,8 +68,14 @@
         "unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
     },
     {
-        "name": "Extended Range",
+        "name": "Extended Range I",
         "prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting II","Bombardment II"],
+        "uniques": ["[+1] Range"],
+        "unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"]
+    },
+    {
+        "name": "Extended Range II",
+        "prerequisites": ["Extended Range I", "Accuracy III","Barrage III","Anti-Naval III","Targeting II","Bombardment II"],
         "uniques": ["[+1] Range"],
         "unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"]
     },
@@ -162,34 +168,47 @@
         "name": "Medic II",
         "prerequisites": ["Medic"],
         "uniques": [
-            "[+5] HP when healing <in [Foreign Land] tiles>",
-            "All adjacent units heal [+5] HP when healing"
+            "[+10] HP when healing <in [Foreign Land] tiles>",
+            "All adjacent units heal [+10] HP when healing"
+        ],
+        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
+    },
+    {
+        "name": "Medic III",
+        "prerequisites": ["Medic II"],
+        "uniques": [
+            "[+15] HP when healing <in [Foreign Land] tiles>",
+            "All adjacent units heal [+15] HP when healing"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
     },
     // Scout
     {
         "name": "Scouting I",
-        "uniques": ["[+1] Sight"],
+        "uniques": ["[+2] Sight"],
         "unitTypes": ["Scout"]
     },
     {
         "name": "Scouting II",
         "prerequisites": ["Scouting I"],
-        "uniques": ["[+1] Sight"],
+        "uniques": ["[+3] Sight"],
         "unitTypes": ["Scout"]
     },
     {
         "name": "Scouting III",
         "prerequisites": ["Scouting II"],
-        "uniques": ["[+1] Movement"],
+        "uniques": ["[+3] Movement"],
         "unitTypes": ["Scout"]
     },
     {
         "name": "Survivalism I",
         "uniques": [
-            "[+5] HP when healing <in [Foreign Land] tiles>",
-            "[+25]% Strength <when defending>"
+            "[+25] HP when healing <in [Foreign Land] tiles>",
+            "May heal outside of friendly territory",
+            "Can move after attacking",
+            "Invisible to non-adjacent units",
+            "Can see over obstacles",
+            "May travel on Water tiles without embarking"
         ],
         "unitTypes": ["Scout"]
     },
@@ -197,8 +216,12 @@
         "name": "Survivalism II",
         "prerequisites": ["Survivalism I"],
         "uniques": [
-            "[+5] HP when healing <in [Foreign Land] tiles>",
-            "[+25]% Strength <when defending>"
+            "[+35] HP when healing <in [Foreign Land] tiles>",
+            "[+75]% Strength <when attacking>",
+            "[+250]% Strength <when defending>",
+            "Can pass through impassable tiles",
+            "Ignores Zone of Control",
+            "All adjacent units heal [30] HP when healing"
         ],
         "unitTypes": ["Scout"]
     },
@@ -207,7 +230,18 @@
         "prerequisites": ["Survivalism II"],
         "uniques": [
             "Unit will heal every turn, even if it performs an action",
-            "May withdraw before melee ([50]%)"
+            "[3] additional attacks per turn",
+            "[+5] Movement",
+            "All adjacent units heal [40] HP when healing",
+            "[+150]% Strength <when fighting in [Open terrain] tiles> <when defending>",
+            "[+150]% Strength <when fighting in [Rough terrain] tiles> <when defending>",
+            "[+75]% Strength <vs [Mounted] units>",
+            "[+75]% Strength <vs [Armored] units>",
+            "May withdraw before melee ([80]%)",
+            "[-30]% Strength for enemy [Military] units within [2] tiles",
+            "[+30]% Strength bonus for [Military] units within [4] tiles",
+            "[+150]% Strength <vs [Air] units>", 
+            "[+150]% Strength <vs [Helicopter] units>"]
         ],
         "unitTypes": ["Scout"]
     },
@@ -299,19 +333,19 @@
     // Aircraft Carrier
     {
         "name": "Armor Plating I",
-        "uniques": ["[+25]% Strength <when defending>"],
+        "uniques": ["[+33]% Strength <when defending>"],
         "unitTypes": ["Aircraft Carrier"]
     },
     {
         "name": "Armor Plating II",
         "prerequisites": ["Armor Plating I"],
-        "uniques": ["[+25]% Strength <when defending>"],
+        "uniques": ["[+33]% Strength <when defending>"],
         "unitTypes": ["Aircraft Carrier"]
     },
     {
         "name": "Armor Plating III",
         "prerequisites": ["Armor Plating II"],
-        "uniques": ["[+25]% Strength <when defending>"],
+        "uniques": ["[+34]% Strength <when defending>"],
         "unitTypes": ["Aircraft Carrier"]
     },
     {
@@ -1263,7 +1297,8 @@
         "uniques": [
             "[+1] Movement",
             "[+50]% Strength <vs [Mounted] units>",
-            "[+50]% Strength <vs [Armored] units>"
+            "[+50]% Strength <vs [Armored] units>",
+            "May withdraw before melee ([80]%)"
         ],
         "prerequisites": ["Pünktlichkeit"],
         "unitTypes": ["Sword","Mounted","Scout","Siege","Archery","Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
