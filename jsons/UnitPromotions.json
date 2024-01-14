@@ -210,7 +210,7 @@
         ],
         "unitTypes": ["Scout"]
     },
-    /"{
+    /*{
         "name": "Survivalism III",
         "prerequisites": ["Survivalism II"],
         "uniques": [
