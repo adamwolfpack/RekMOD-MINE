@@ -165,7 +165,7 @@
             "[+25] HP when healing <in [Foreign Land] tiles>",
             "All adjacent units heal [+25] HP when healing"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
+        "unitTypes": ["Sword","Gunpoowder","Paratrooping","Mounted","Scout"]
     },
     // Scout
     {
@@ -221,7 +221,7 @@
             "[+75]% Strength <vs [Mounted] units>",
             "[+75]% Strength <vs [Armored] units>",
             "[+150]% Strength <vs [Air] units>", 
-            "[+150]% Strength <vs [Helicopter] units>"]
+            "[+150]% Strength <vs [Helicopter] units>"
         ],
         "unitTypes": ["Scout"]
     },
