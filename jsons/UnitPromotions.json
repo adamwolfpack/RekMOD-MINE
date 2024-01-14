@@ -220,7 +220,7 @@
             "All adjacent units heal [+30] HP when healing",
             "[+75]% Strength <vs [Mounted] units>",
             "[+75]% Strength <vs [Armored] units>",
-            "[+150]% Strength <vs [Air] units>", 
+            "[+150]% Strength <vs [Air] units>",
             "[+150]% Strength <vs [Helicopter] units>"
         ],
         "unitTypes": ["Scout"]
