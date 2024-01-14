@@ -238,8 +238,6 @@
             "[+75]% Strength <vs [Mounted] units>",
             "[+75]% Strength <vs [Armored] units>",
             "May withdraw before melee ([80]%)",
-            "[-30]% Strength for enemy [Military] units within [2] tiles",
-            "[+30]% Strength bonus for [Military] units within [4] tiles",
             "[+150]% Strength <vs [Air] units>", 
             "[+150]% Strength <vs [Helicopter] units>"]
         ],
