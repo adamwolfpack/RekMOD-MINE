@@ -203,10 +203,10 @@
         "uniques": [
             "[+35] HP when healing <in [Foreign Land] tiles>",
             "[+75]% Strength <when attacking>",
-            "[+250]% Strength <when defending>",
+            "[+275]% Strength <when defending>",
             "Can pass through impassable tiles",
             "Ignores Zone of Control",
-            "All adjacent units heal [30] HP when healing"
+            "All adjacent units heal [+30] HP when healing"
         ],
         "unitTypes": ["Scout"]
     },
