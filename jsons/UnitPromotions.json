@@ -218,8 +218,6 @@
             "[2] additional attacks per turn",
             "[+4] Movement",
             "All adjacent units heal [+30] HP when healing",
-            "[+150]% Strength <when fighting in [Open terrain] tiles> <when defending>",
-            "[+150]% Strength <when fighting in [Rough terrain] tiles> <when defending>",
             "[+75]% Strength <vs [Mounted] units>",
             "[+75]% Strength <vs [Armored] units>",
             "[+150]% Strength <vs [Air] units>", 
