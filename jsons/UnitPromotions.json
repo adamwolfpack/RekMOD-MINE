@@ -68,15 +68,9 @@
         "unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
     },
     {
-        "name": "Extended Range I",
+        "name": "Extended Range",
         "prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting II","Bombardment II"],
-        "uniques": ["[+1] Range"],
-        "unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"]
-    },
-    {
-        "name": "Extended Range II",
-        "prerequisites": ["Extended Range I", "Accuracy III","Barrage III","Anti-Naval III","Targeting II","Bombardment II"],
-        "uniques": ["[+1] Range"],
+        "uniques": ["[+2] Range"],
         "unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"]
     },
     {
@@ -160,7 +154,7 @@
         "name": "Medic",
         "prerequisites": ["Shock I", "Drill I","Ambush Formation I", "Scouting II", "Survivalism II"],
         "uniques": [
-            "All adjacent units heal [+5] HP when healing"
+            "All adjacent units heal [+15] HP when healing"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
     },
@@ -168,17 +162,8 @@
         "name": "Medic II",
         "prerequisites": ["Medic"],
         "uniques": [
-            "[+10] HP when healing <in [Foreign Land] tiles>",
-            "All adjacent units heal [+10] HP when healing"
-        ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
-    },
-    {
-        "name": "Medic III",
-        "prerequisites": ["Medic II"],
-        "uniques": [
-            "[+15] HP when healing <in [Foreign Land] tiles>",
-            "All adjacent units heal [+15] HP when healing"
+            "[+25] HP when healing <in [Foreign Land] tiles>",
+            "All adjacent units heal [+25] HP when healing"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
     },
