@@ -376,8 +376,9 @@
     {
         "name": "Old Faithful",
         "type": "NaturalWonder",
-        "science": 4,
-        "happiness": 4,
+        "science": 25,
+        "happiness": 10,
+        "overrideStats": true,
         "occursOn": ["Grassland","Plains","Tundra","Mountain"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
@@ -394,7 +395,7 @@
     {
         "name": "El Dorado",
         "type": "NaturalWonder",
-        "culture": 5,
+        "culture": 50,
         "overrideStats": true,
         "occursOn": ["Plains"],
         "turnsInto": "Plains",
@@ -407,10 +408,15 @@
         ],
         "weight": 2
     },
-    { // This will count as "Fresh water" in civ 6
+    {
         "name": "Fountain of Youth",
         "type": "NaturalWonder",
-        "happiness": 6,
+        "happiness": 20,
+        "food": 16,
+        "production": 16,
+        "culture": 30,
+        "faith": 20,
+        "gold": 40,
         "overrideStats": true,
         "occursOn": ["Plains"],
         "turnsInto": "Plains",
@@ -427,15 +433,18 @@
     {
         "name": "Grand Mesa",
         "type": "NaturalWonder",
-        "production": 2,
-        "gold": 3,
-        "food": 2,
+        "production": 24,
+        "culture": 20,
+        "food": 12,
+        "science": 30,
+        "overrideStats": true,
         "occursOn": ["Plains","Desert","Tundra"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
             "Must be adjacent to [0] [Grassland] tiles",
             "Must be adjacent to [2] to [6] [Hill] tiles",
-            "Must be adjacent to [0] to [2] [Mountain] tiles"
+            "Must be adjacent to [0] to [2] [Mountain] tiles",
+            "Tile provides yield without assigned population"
         ],
         "turnsInto": "Mountain",
         "impassable": true,
@@ -445,9 +454,10 @@
     {
         "name": "Mount Fuji",
         "type": "NaturalWonder",
-        "happiness": 2,
-        "culture": 2,
-        "faith": 4,
+        "happiness": 8,
+        "culture": 24,
+        "faith": 14,
+        "overrideStats": true,
         "occursOn": ["Grassland","Plains"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
@@ -466,8 +476,9 @@
     {
         "name": "Krakatoa",
         "type": "NaturalWonder",
-        "science": 8,
-        "food": 2,
+        "science": 35,
+        "food": 12,
+        "overrideStats": true,
         "occursOn": ["Ocean"],
         "uniques": [
             "Must be adjacent to [1] to [6] [Coast] tiles",
@@ -482,8 +493,9 @@
     {
         "name": "Rock of Gibraltar",
         "type": "NaturalWonder",
-        "food": 3,
-        "gold": 7,
+        "food": 12,
+        "gold": 30,
+        "overrideStats": true,
         "occursOn": ["Grassland"],
         "uniques": [
             "Must be adjacent to [1] to [5] [Coast] tiles",
@@ -498,8 +510,9 @@
     {
         "name": "Cerro de Potosi",
         "type": "NaturalWonder",
-        "production": 1,
-        "gold": 10,
+        "production": 12,
+        "gold": 30,
+        "overrideStats": true,
         "occursOn": ["Plains","Mountain"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
@@ -512,9 +525,10 @@
     {
         "name": "Barringer Crater",
         "type": "NaturalWonder",
-        "gold": 3,
-        "science": 5,
-        "production": 2,
+        "gold": 10,
+        "science": 16,
+        "production": 12,
+        "overrideStats": true,
         "occursOn": ["Desert","Tundra"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
@@ -531,8 +545,9 @@
     {
         "name": "Mount Kailash",
         "type": "NaturalWonder",
-        "faith": 6,
-        "happiness": 2,
+        "faith": 30,
+        "happiness": 16,
+        "overrideStats": true,
         "occursOn": ["Plains","Grassland"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
@@ -548,7 +563,9 @@
     {
         "name": "Mount Sinai",
         "type": "NaturalWonder",
-        "faith": 8,
+        "faith": 24,
+        "culture": 18,
+        "overrideStats": true,
         "occursOn": ["Desert","Plains"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
@@ -565,9 +582,10 @@
     {
         "name": "Sri Pada",
         "type": "NaturalWonder",
-        "food": 2,
-        "faith": 4,
-        "happiness": 2,
+        "food": 14,
+        "faith": 12,
+        "science": 12,
+        "overrideStats": true,
         "occursOn": ["Plains","Grassland"],
         "uniques": [
             "Must be adjacent to [0] [Tundra] tiles",
@@ -582,8 +600,10 @@
     {
         "name": "Uluru",
         "type": "NaturalWonder",
-        "food": 2,
-        "faith": 6,
+        "food": 6,
+        "faith": 12,
+        "production": 18,
+        "overrideStats": true,
         "occursOn": ["Plains","Desert"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
@@ -602,7 +622,7 @@
     {
         "name": "King Solomon's Mines",
         "type": "NaturalWonder",
-        "production": 8,
+        "production": 24,
         "overrideStats": true,
         "occursOn": ["Plains","Desert"],
         "uniques": [
@@ -617,7 +637,8 @@
     {
         "name": "Lake Victoria",
         "type": "NaturalWonder",
-        "food": 8,
+        "food": 24,
+        "overrideStats": true,
         "occursOn": ["Plains"],
         "turnsInto": "Lakes",
         "impassable": true,
@@ -628,8 +649,10 @@
     {
         "name": "Mount Kilimanjaro",
         "type": "NaturalWonder",
-        "food": 3,
-        "culture": 2,
+        "food": 10,
+        "culture": 40,
+        "production": 10,
+        "overrideStats": true,
         "occursOn": ["Plains","Grassland"],
         "turnsInto": "Mountain",
         "impassable": true,
@@ -638,6 +661,7 @@
             "Must be adjacent to [0] [Coast] tiles",
             "Must be adjacent to [2] to [6] [Hill] tiles",
             "Must be adjacent to [0] to [2] [Mountain] tiles",
+            "Tile provides yield without assigned population",
             "Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"
         ],
         "weight": 10
