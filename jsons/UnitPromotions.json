@@ -202,8 +202,8 @@
         "prerequisites": ["Survivalism I"],
         "uniques": [
             "[+35] HP when healing <in [Foreign Land] tiles>",
-            "[+75]% Strength <when attacking>",
-            "[+275]% Strength <when defending>",
+            "[+100]% Strength <when attacking>",
+            "[+400]% Strength <when defending>",
             "Can pass through impassable tiles",
             "Ignores Zone of Control",
             "All adjacent units heal [+30] HP when healing"
@@ -214,14 +214,10 @@
         "name": "Survivalism III",
         "prerequisites": ["Survivalism II"],
         "uniques": [
-            "Unit will heal ever9y turn, even if it performs an action",
-            "[2] additional attacks per turn",
+            "Unit will heal every turn, even if it performs an action",
+            "[3] additional attacks per turn",
             "[+4] Movement",
-            "All adjacent units heal [+30] HP when healing",
-            "[+75]% Strength <vs [Mounted] units>",
-            "[+75]% Strength <vs [Armored] units>",
-            "[+150]% Strength <vs [Air] units>",
-            "[+150]% Strength <vs [Helicopter] units>"
+            "All adjacent units heal [+30] HP when healing"
         ],
         "unitTypes": ["Scout"]
     },
