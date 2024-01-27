@@ -3,25 +3,25 @@
         "name": "freeCulture",
         "notification": "We have discovered cultural artifacts in the ruins! (+2000 culture)",
         "weight": 3
-        "uniques": ["Gain [2000] [Culture] (modified by game speed) <after [1] turns>"]
+        "uniques": ["Gain [4000] [Culture] (modified by game speed) <after [1] turns>"]
         },
     {
         "name": "joinWorker",
         "notification": "A [Worker] has joined us!",
         "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity", "Diety++"]
+        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
         },
     {
         "name": "joinSettler",
         "notification": "A [Settler] has joined us!",
         "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Warlord", "Prince", "King", "Emperor", "Immortal", "Deity", "Diety++"]
+        "excludedDifficulties": ["Warlord", "Prince", "King", "Emperor", "Immortal", "Deity"]
         },
     {
         "name": "freePop",
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
         "weight": 4
-        "uniques": ["[+3] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
+        "uniques": ["[+5] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
         },
     {
         "name": "freeGold",
@@ -42,12 +42,12 @@
         "name": "unitTraining",
         "notification": "Our unit was trained by nearby residents!",
         "weight": 2
-	    "uniques": ["This Unit gains [300] XP"]
+	    "uniques": ["This Unit gains [600] XP"]
     },
     {
         "name": "unitUpgrade",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "weight": 4
+        "weight": 3
         "uniques": ["This Unit upgrades for free including special upgrades", "This Unit gains [300] XP"]
         },
     {
