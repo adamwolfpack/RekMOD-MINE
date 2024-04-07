@@ -2,7 +2,7 @@
     {
         "name": "Alters of Worship",
         "type": "Pantheon",
-        "uniques": ["[+20]% Production when constructing [All] wonders [in cities following this religion]"]
+        "uniques": ["[+25]% Production when constructing [All] wonders [in cities following this religion]"]
         // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
         // For that we really should need an era.matchesFilter(), so we could write something like:
         //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
@@ -21,12 +21,17 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Tundra]"]
+        "uniques": [
+			"[+50]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+		]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
+        "uniques": [
+            "[+6 Faith] from every [Desert]",
+            "[+2 Food, +2 Production, +2 Science, +1 Happiness] in cities on [River] tiles"
+        ]
     },
     {
         "name": "Divine Judgement",
@@ -95,7 +100,7 @@
         "name": "Goddess of Protection",
         "type": "Pantheon",
         "uniques": [
-            "[+50]% Strength for cities <when attacking>",
+            "[+100]% Strength for cities <when attacking>",
             "[+1 Culture, +1 Faith] from every [Walls]"
         ]
     },
@@ -148,7 +153,7 @@
     {
         "name": "One with Nature",
         "type": "Pantheon",
-        "uniques": ["[+5 Faith] from every [Natural Wonder]"]
+        "uniques": ["[+8 Faith] from every [Natural Wonder]"]
     },
     {
         "name": "Oral Tradition",
@@ -176,8 +181,8 @@
         "name": "Religious Settlements",
         "type": "Pantheon",
         "uniques": [
-            "[-15]% Culture cost of natural border growth [in cities following this religion]",
-            "[+1 Food] [in cities following this religion]"
+            "[-35]% Culture cost of natural border growth [in cities following this religion]",
+            "[+3 Food] [in cities following this religion]"
         ]
     },
     {
@@ -315,16 +320,15 @@
         "name": "Messiah",
         "type": "Founder",
         "uniques": [
-            "[+25]% Spread Religion Strength <for [Great Prophet] units>",
-            "[-25]% Faith cost of generating Great Prophet equivalents"
+            "[+75]% Spread Religion Strength <for [Great Prophet] units>",
+            "[-75]% Faith cost of generating Great Prophet equivalents"
         ]
     },
     {
         "name": "Missionary Zeal",
         "type": "Founder",
         "uniques": [
-            "[Faith] cost of purchasing [Missionary] units [-50]%",
-            "All newly-trained [Missionary] units [in this city] receive the [Missionary Zeal] promotion"
+			"[+50]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
         ]
     },
     {
@@ -336,8 +340,8 @@
         "name": "Religious Unity",
         "type": "Founder",
         "uniques": [
-            "[+100]% Natural religion spread [in City-State cities]",
-            "Resting point for Influence with City-States following this religion [+45]"
+            "[+200]% Natural religion spread [in City-State cities]",
+            "Resting point for Influence with City-States following this religion [+50]"
         ]
     },
     {
@@ -348,17 +352,17 @@
     {
         "name": "Tithe",
         "type": "Founder",
-        "uniques": ["[+1 Gold] from every [4] global followers [in cities following this religion]"]
+        "uniques": ["[+2 Gold] from every [1] global followers [in cities following this religion]"]
     },
     {
         "name": "World Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [6] global followers [in foreign cities]"]
+        "uniques": ["[+2 Culture] from every [1] global followers [in cities following this religion]"]
     },
     {
         "name": "Zakat",
         "type": "Founder",
-        "uniques": ["[+8 Gold] [in capital]"]
+        "uniques": ["+3 Faith, +2 Food, +2 Production, +4 Science, +2 Culture, +2 Gold, +1 Happiness] from every [Natural Wonder]"]
     },
 
     ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
@@ -389,7 +393,10 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Wonder]"]
+        "uniques": [
+			"[+150]% Natural religion spread [in all cities]",
+            "Religion naturally spreads to cities [+10] tiles away"
+        ]
     },
     {
         "name": "Feed the World",
@@ -470,7 +477,7 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [10]%"]
+        "uniques": ["[+1]% [Production] from every follower, up to [20]%"]
     },
     {
         "name": "Sacred Waters",
@@ -508,7 +515,7 @@
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        "uniques": ["[+50]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
         // ToDo: Should only be friendly territory of cities that follow this religion
     },
     {
@@ -519,7 +526,10 @@
     {
         "name": "Disciples",
         "type": "Enhancer",
-        "uniques": ["[+2 Gold, +2 Culture] from every [Great Improvement]"]
+        "uniques": [
+            "[+2 Production, +2 Culture, +2 Science] from every [Great Improvement]",
+            "Provides [8] [Trade Route]",
+        ]
     },
     {
         "name": "Hajj",
@@ -560,7 +570,7 @@
     {
         "name": "Just War",
         "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+        "uniques": ["[+25]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
         // ToDo: Should only be enemy territory of cities that follow this religion
     },
     {
@@ -607,7 +617,7 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Enhancer",
-        "uniques": ["[+20]% growth [in cities following this religion]"]
+        "uniques": ["[+40]% growth [in cities following this religion]"]
         //Should be for all cities following the religion, but I can't do so as an enhancer
     },
     {
